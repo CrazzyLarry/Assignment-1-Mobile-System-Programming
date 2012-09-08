@@ -6,5 +6,8 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="continueButton">continue</string>
     <string name="title_activity_control_panel">ControlPanel</string>
+    <string name="sent_to_hig">send Data to HIG</string>
+    <string name="show_a_picture_from_hig">show me a picture form HIG</string>
+    <string name="show_me_something_on_wikipedia">show something on Wikipedia</string>
 
 </resources>
