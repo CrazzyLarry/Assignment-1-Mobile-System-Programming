@@ -18,14 +18,33 @@
      
          <Button
     	android:id="@+id/sendToHigButton"
-    	android:translationX="80dp"
-    	android:translationY="200dp"
-     	android:layout_height="50dp"
-     	android:layout_width="100dp"
+    	android:translationX="40dp"
+    	android:translationY="175dp"
+     	android:layout_height="43dp"
+     	android:layout_width="250dp"
      	android:background="#000000"
-     	
-     />
+     	android:onClick="onClickSendToHig"	
+     	/>
          
+          <Button
+    	android:id="@+id/getLogoFromHig"
+    	android:translationX="40dp"
+    	android:translationY="240dp"
+     	android:layout_height="43dp"
+     	android:layout_width="250dp"
+     	android:background="#000000"
+     	android:onClick="onClickGetLogoFromHig"	
+     	/>
+         
+          <Button
+    	android:id="@+id/searchInWikipedia"
+    	android:translationX="40dp"
+    	android:translationY="305dp"
+     	android:layout_height="43dp"
+     	android:layout_width="250dp"
+     	android:background="#000000"
+     	android:onClick="onClicksearchInWikipedia"	
+     	/>
  
    
 </RelativeLayout>

@@ -9,5 +9,11 @@
     <string name="sent_to_hig">send Data to HIG</string>
     <string name="show_a_picture_from_hig">show me a picture form HIG</string>
     <string name="show_me_something_on_wikipedia">show something on Wikipedia</string>
+    <string name="title_activity_sent_to_hig">SentToHig</string>
+    <string name="sendToHig">send to hig</string>
+    <string name="title_activity_get_logo_from_hig">GetLogoFromHig</string>
+    <string name="title_activity_search_in_wikipedia">SearchInWikipedia</string>
+    <string name="search_in_Wikipedia">search in wikipedia</string>
+    <string name="get_logo_from_hig">get logo from hig</string>
 
 </resources>

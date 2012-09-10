@@ -23,8 +23,38 @@
         </activity>
         <activity
             android:name=".ControlPanel"
-            android:label="@string/title_activity_control_panel" 
-            android:theme="@android:style/Theme.Holo.NoActionBar">
+            android:label="@string/title_activity_control_panel"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SentToHig"
+            android:label="@string/title_activity_sent_to_hig" 
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GetLogoFromHig"
+            android:label="@string/title_activity_get_logo_from_hig" 
+             android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchInWikipedia"
+            android:label="@string/title_activity_search_in_wikipedia" 
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
